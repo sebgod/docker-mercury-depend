@@ -4,6 +4,7 @@ ONBUILD RUN apt-get update && apt-get install -y \
     autoconf \
     automake \
     bison \
+    curl \
     doxygen \
     flex \
     gcc \
