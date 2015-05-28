@@ -1,5 +1,6 @@
 FROM debian:latest
 MAINTAINER Sebastian Godelet <sebastian.godelet@outlook.com>
+ENV LANG C.UTF-8
 RUN apt-get update && apt-get install -y \
     autoconf \
     automake \
