@@ -1,17 +1,10 @@
-FROM debian:latest
-ENV LANG C.UTF-8
+FROM sebgod/mercury-depend-essential:latest
 RUN apt-get update && apt-get install -y \
     autoconf \
     automake \
-    bison \
-    curl \
     doxygen \
     flex \
-    gcc \
-    gcc-mingw-w64-i686 \
-    gcc-mingw-w64-x86-64 \
     git \
-    make \
     libc-dev-bin \
     pkg-config \
     texi2html \
