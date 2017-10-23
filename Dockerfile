@@ -5,7 +5,5 @@ RUN apk add --no-cache \
     doxygen \
     flex \
     git \
-    pkg-config \
-    texi2html \
-    texinfo \
-    xsltproc
+    libxslt \
+    texinfo
