@@ -6,5 +6,6 @@ RUN apk add --no-cache \
     flex \
     git \
     libxslt \
+    linux-headers \
     pkgconfig \
     texinfo
